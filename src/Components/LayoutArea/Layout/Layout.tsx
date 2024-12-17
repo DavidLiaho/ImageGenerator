@@ -19,7 +19,7 @@ export function Layout(): JSX.Element {
             </div>
 
             <footer>
-                <a href="https://liahovitskydavid.web.app" target="_blank">All Rights Reserved © {year} David Liahovitsky - Full Stack Web Developer</a>
+                <a href="https://liahovitskydavid.web.app" target="_blank">All Rights Reserved {year}© David Liahovitsky - Full Stack Web Developer</a>
             </footer>
 
         </div>
