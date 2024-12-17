@@ -1,0 +1,8 @@
+.Generator {
+    border-radius: 10px;
+}
+
+.Generator > div > img {
+    margin-top: 20px;
+    width: 400px;
+}

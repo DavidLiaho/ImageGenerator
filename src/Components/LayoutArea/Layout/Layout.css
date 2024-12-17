@@ -1,0 +1,23 @@
+.Layout {
+    height: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Layout > footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.Layout > footer > a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-out;
+}
+
+.Layout > footer > a:hover {
+    transform: scale(1.05);
+}
