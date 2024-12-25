@@ -1,3 +1,22 @@
-.Header {
-	color: black;
-}
+.Header > h1 {
+    font-size: 3rem;
+    background: linear-gradient(45deg, red, cyan, blue, hsl(82, 93%, 36%));
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: gradientFlow 8s ease infinite,
+               float 3s ease-in-out infinite;
+  }
+  
+  @keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
